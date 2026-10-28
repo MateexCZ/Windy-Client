@@ -2,7 +2,7 @@
 
 Windy is a free Minecraft 1.8.9 client project with a custom interface, HUD, visual effects, and combat, movement, and player modules.
 
-I am sharing the project so others can explore the code, learn from it, and find inspiration. Some features are experimental, and compatibility with server anticheats is not guaranteed.
+I am sharing the project so others can explore the code, and maybe even learn from it. Some features are experimental, and compatibility with server anticheats is not guaranteed.
 
 ## Requirements
 
@@ -42,3 +42,18 @@ powershell -ExecutionPolicy Bypass -File .\build-release.ps1
 ```
 
 The result is `release/Windy-B4.zip`.
+
+---
+#  Support
+
+If you find this project helpfull in anyway make sure to give it a star!
+---
+
+#  Contact
+
+If you need to ask any question you can contact me:
+
+- Discord username: mateex_
+
+
+
