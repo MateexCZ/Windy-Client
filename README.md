@@ -42,12 +42,3 @@ powershell -ExecutionPolicy Bypass -File .\build-release.ps1
 ```
 
 The result is `release/Windy-B4.zip`.
-
-## Credits
-
-- Windy development and integration: Matyl.
-- Minecraft: Mojang Studios.
-- This project uses or adapts components from other projects, including OpenMyau, Rise, Tenacity, Rockstar, and ViaVersion-related projects. Attribution here does not imply endorsement.
-- AI assistance was used for parts of development, debugging, and review.
-
-Before publishing, complete the upstream links, authors, and license notices for the components actually included. This README does not grant rights to Minecraft or third-party code; preserve their applicable terms and notices. Choose a license for your own contributions separately.
