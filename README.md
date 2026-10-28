@@ -43,11 +43,9 @@ powershell -ExecutionPolicy Bypass -File .\build-release.ps1
 
 The result is `release/Windy-B4.zip`.
 
----
 #  Support
 
 If you find this project helpfull in anyway make sure to give it a star!
----
 
 #  Contact
 
