@@ -53,6 +53,6 @@ For questions, feedback, or bug reports, open a GitHub issue or contact me on Di
 
 ## Credits
 
-Windy was developed and integrated by Mateex (me), using code and inspiration from [OpenMyau](https://github.com/IamNespola/OpenMyau-Plus), Tenacity, Rise. The project also uses ViaVersion-related libraries, and AI assistance was used during development and debugging.
+Windy was developed and integrated by Mateex (me), using code and inspiration from [OpenMyau+](https://github.com/IamNespola/OpenMyau-Plus), Tenacity, Rise. The project also uses ViaVersion-related libraries, and AI assistance was used during development and debugging.
 
 
