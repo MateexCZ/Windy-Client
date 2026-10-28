@@ -47,11 +47,12 @@ The result is `release/Windy-B4.zip`.
 
 If you find this project helpfull in anyway make sure to give it a star!
 
-#  Contact
+## Contact
 
-If you need to ask any question you can contact me:
+For questions, feedback, or bug reports, open a GitHub issue or contact me on Discord: **mateex_**.
 
-- Discord username: mateex_
+## Credits
 
+Windy was developed and integrated by Mateex (me), using code and inspiration from [OpenMyau](https://github.com/IamNespola/OpenMyau-Plus), Tenacity, Rise. The project also uses ViaVersion-related libraries, and AI assistance was used during development and debugging.
 
 
