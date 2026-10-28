@@ -1,58 +1,43 @@
 # Windy Client
 
-Windy is a free Minecraft 1.8.9 client project with a custom interface, HUD, visual effects, and combat, movement, and player modules.
+A free Minecraft 1.8.9 client with a custom interface, HUD, visual effects, and combat, movement, and player modules.
 
-I am sharing the project so others can explore the code, and maybe even learn from it. Some features are experimental, and compatibility with server anticheats is not guaranteed.
+![Windy Client screenshot](docs/images/windy.png)
 
-## Requirements
+Windy is shared for others to explore, learn from, and find inspiration. Some modules are experimental, and anticheat compatibility is not guaranteed.
 
-- Minecraft Java Edition account
-- Windows with 64-bit Java 17
-- Official Minecraft Launcher for the supplied version profile
-- Maven for building from source
+## Download & Install
 
-## Download and installation
-
-Download `Windy-B4.zip` from this repository's **Releases** section.
+Download **Windy-B4.zip** from [Releases](../../releases).
 
 1. Close Minecraft Launcher.
-2. Extract the `Windy-B4` folder into `%APPDATA%\.minecraft\versions\`.
-3. Reopen the launcher and create a new installation using `release Windy-B4`.
-4. Under **More Options**, select a 64-bit Java 17 executable if needed.
-5. Use a separate game directory for Windy and start the game.
+2. Extract the **Windy-B4** folder into `%APPDATA%\.minecraft\versions\`.
+3. Open the launcher → **Installations → New installation** → select **release Windy-B4**.
+4. Under **More Options**, select **64-bit Java 17**.
+5. Choose a separate game directory and launch.
 
-The JAR belongs in the version folder alongside its JSON. It is not a Forge mod and should not be placed in `mods`.
+Keep the folder, JAR, and JSON names identical: **Windy-B4**. This is a standalone client, so do not put it in `mods`.
 
-The supplied launcher profile has been checked structurally; a full launch through the official launcher still needs testing before marking the release stable.
+**Open ClickGUI:** Right Shift.
 
-## Building
+## Build from Source
 
-Open `pom.xml` as a Maven project and use JDK 17, then run:
+Requires **JDK 17** and **Maven**. Run from the project root:
 
 ```powershell
 mvn clean package -DskipTests
 ```
 
-The bundled client is `target/MCP-1.8.9-jar-with-dependencies.jar`.
+Output: `target/MCP-1.8.9-jar-with-dependencies.jar`.
 
-To build and export a launcher ZIP, run the included script from the project root:
+## Feedback & Contact
 
-```powershell
-powershell -ExecutionPolicy Bypass -File .\build-release.ps1
-```
+Found a bug or have a suggestion? Open an issue.
 
-The result is `release/Windy-B4.zip`.
+**Discord:** mateex_
 
-#  Support
-
-If you find this project helpfull in anyway make sure to give it a star!
-
-## Contact
-
-For questions, feedback, or bug reports, open a GitHub issue or contact me on Discord: **mateex_**.
+If you enjoy the project, consider giving it a ⭐!
 
 ## Credits
 
-Windy was developed and integrated by Mateex (me), using code and inspiration from [OpenMyau+](https://github.com/IamNespola/OpenMyau-Plus), Tenacity, Rise. The project also uses ViaVersion-related libraries, and AI assistance was used during development and debugging.
-
-
+Developed and integrated by **Mateex** (me), using code and inspiration from [OpenMyau](https://github.com/IamNespola/OpenMyau-Plus), Tenacity, Rise, with ViaVersion-related libraries and AI assistance during development and debugging.
