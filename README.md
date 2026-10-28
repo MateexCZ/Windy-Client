@@ -2,7 +2,7 @@
 
 A free Minecraft 1.8.9 client with a custom interface, HUD, visual effects, and combat, movement, and player modules.
 
-![Windy Client screenshot](docs/images/windy.png)
+![Windy Client screenshot](/images/showcaseGUI.png)
 
 Windy is shared for others to explore, learn from, and find inspiration. Some modules are experimental, and anticheat compatibility is not guaranteed.
 
